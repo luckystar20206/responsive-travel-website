@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Travel</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--========================== HEADER ===========================-->
+  <header class="header" id="header">
+    <nav class="nav container"><a class="nav-logo" href="#">Travel</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"> <a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#discover">Discover</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#places">Place</a></li>
+        </ul>
+        <!------------------ DARK THEME ------------------->
+        <div class="theme-change"><span class="theme-name">Dark Mode</span><i class="ri-moon-line theme-icon"> </i>
+        </div><i class="ri-close-line nav-close" id="nav-close"></i>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+  <!--************ MAIN ************-->
+  <main class="main">
+    <!--========================== HOME ===========================-->
+    <section class="section home" id="home"><img class="home-img" src="img/home1.jpg" alt="">
+      <div class="container home-container grid">
+        <div class="home-data"> <span class="subtitle">Discover your place</span>
+          <h1 class="title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1><a class="button"
+            href="#">Explore</a>
+        </div>
+        <div class="home-social"> <a class="social-link" target="_blank" href="https://www.facebook.com/"><i
+              class="ri-facebook-box-fill"> </i></a><a class="social-link" target="_blank"
+            href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a><a class="social-link"
+            target="_blank" href="https://twitter.com/"><i class="ri-twitter-fill"></i></a></div>
+        <div class="home-info">
+          <div class="div"> <span class="home-info-title">5 best places to visit</span><a
+              class="button button-flex button-link home-info-button" href="#">More<i
+                class="ri-arrow-right-line"></i></a></div>
+          <div class="home-info-overlay"> <img src="img/home2.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!--========================== ABOUT ===========================-->
+    <section class="section about" id="about">
+      <div class="about-container container grid">
+        <div class="data">
+          <h2 class="title section-title">More Information <br> About The Best Beaches</h2>
+          <div class="description">You can find the most beautiful and pleasant places at the best prices with special
+            discounts, you choose the place we will guide you all the way to wait, get your place now. </div><a
+            class="button" href="#">Reverse a place</a>
+        </div>
+        <div class="about-imgs">
+          <div class="img-overlay"> <img class="img-one" src="img/about1.jpg" alt=""></div>
+          <div class="img-overlay"> <img class="img-two" src="img/about2.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!--========================== DISCOVER ===========================-->
+    <section class="section discover" id="discover">
+      <h2 class="section-title">Discover the most <br> attractive places</h2>
+      <div class="discover-cards swiper-container container">
+        <div class="swiper-wrapper">
+          <div class="discover-card swiper-slide"> <img src="img/discover1.jpg" alt="">
+            <div class="data">
+              <h2 class="title">Bali</h2><span class="description">24 tours available</span>
+            </div>
+          </div>
+          <div class="discover-card swiper-slide"> <img src="img/discover2.jpg" alt="">
+            <div class="data">
+              <h2 class="title">Hawaii</h2><span class="description">15 tours available</span>
+            </div>
+          </div>
+          <div class="discover-card swiper-slide"> <img src="img/discover3.jpg" alt="">
+            <div class="data">
+              <h2 class="title">Hvar</h2><span class="description">18 tours available</span>
+            </div>
+          </div>
+          <div class="discover-card swiper-slide"> <img src="img/discover4.jpg" alt="">
+            <div class="data">
+              <h2 class="title">Whitehaven</h2><span class="description">32 tours available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== EXPERIENCE ===========================-->
+    <section class="section experience" id="experience">
+      <h2 class="section-title">With Our Experience <br> We Will Serve You</h2>
+      <div class="container grid">
+        <div class="content grid">
+          <div class="data">
+            <h2 class="number">20</h2><span class="description">Year <br> Experience</span>
+          </div>
+          <div class="data">
+            <h2 class="number">75</h2><span class="description">Complete <br> tours</span>
+          </div>
+          <div class="data">
+            <h2 class="number">650+</h2><span class="description">Tourist <br> Destination</span>
+          </div>
+        </div>
+        <div class="img-group grid">
+          <div class="img-mask"> <img src="img/experience1.jpg" alt=""></div>
+          <div class="img-mask"> <img src="img/experience2.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!--========================== VIDEO ===========================-->
+    <section class="section video" id="video">
+      <h2 class="section-title">Video Tour</h2>
+      <div class="container">
+        <p class="desription">Find out more with our video of the most beautiful and pleasant places for you and your
+          family.</p>
+        <div class="video-group">
+          <video id="video-file" src="video/video.mp4"></video>
+          <button class="button button-flex video-button"><i class="ri-play-line video-icon"> </i></button>
+        </div>
+      </div>
+    </section>
+    <!--========================== PLACES ===========================-->
+    <section class="section places" id="places">
+      <h2 class="section-title">Choose Your Place</h2>
+      <div class="container">
+        <div class="gallery-group grid">
+          <div class="image-group"> <img src="img/place1.jpg" alt="">
+            <div class="content">
+              <div class="data">
+                <h3 class="title">Bali</h3><span class="subtitle">Indonesia</span><span class="price">$2499</span>
+              </div>
+              <div class="rating"> <i class="ri-star-line rating-icon"> </i><span class="rating-number">4,8</span></div>
+            </div>
+            <button class="button button-flex palce-button"><i
+                class="ri-arrow-right-line place-button-icon"></i></button>
+          </div>
+          <div class="image-group"> <img src="img/place2.jpg" alt="">
+            <div class="content">
+              <div class="data">
+                <h3 class="title">Bora Bora</h3><span class="subtitle">Polinesia</span><span class="price">$1599</span>
+              </div>
+              <div class="rating"> <i class="ri-star-line rating-icon"> </i><span class="rating-number">5,0</span></div>
+            </div>
+            <button class="button button-flex palce-button"><i
+                class="ri-arrow-right-line place-button-icon"></i></button>
+          </div>
+          <div class="image-group"> <img src="img/place3.jpg" alt="">
+            <div class="content">
+              <div class="data">
+                <h3 class="title">Hawaii</h3><span class="subtitle">EEUU</span><span class="price">$3499</span>
+              </div>
+              <div class="rating"> <i class="ri-star-line rating-icon"> </i><span class="rating-number">4.9</span></div>
+            </div>
+            <button class="button button-flex palce-button"><i
+                class="ri-arrow-right-line place-button-icon"></i></button>
+          </div>
+          <div class="image-group"> <img src="img/place4.jpg" alt="">
+            <div class="content">
+              <div class="data">
+                <h3 class="title">Whitehaven</h3><span class="subtitle">Australia</span><span class="price">$2499</span>
+              </div>
+              <div class="rating"> <i class="ri-star-line rating-icon"> </i><span class="rating-number">4.8</span></div>
+            </div>
+            <button class="button button-flex palce-button"><i
+                class="ri-arrow-right-line place-button-icon"></i></button>
+          </div>
+          <div class="image-group"> <img src="img/place5.jpg" alt="">
+            <div class="content">
+              <div class="data">
+                <h3 class="title">Havr</h3><span class="subtitle">Croacia</span><span class="price">$1999</span>
+              </div>
+              <div class="rating"> <i class="ri-star-line rating-icon"> </i><span class="rating-number">4.8</span></div>
+            </div>
+            <button class="button button-flex palce-button"><i
+                class="ri-arrow-right-line place-button-icon"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== SUBSCRIBE ===========================-->
+    <section class="section subscribe" id="subscribe">
+      <div class="subscribe_bg">
+        <div class="container">
+          <h2 class="section-title">Subscribe Our <br> Newsletter</h2>
+          <p class="description">Subscribe to our newsletter and get a special 30% discount.</p>
+          <form class="subscribe-form" action="">
+            <input id="email-input" type="email" name="" placeholder="Enter email">
+            <button class="button button-flex subscribe-button">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--========================== SPONSORS ===========================-->
+    <section class="section sponsors" id="sponsors">
+      <div class="container">
+        <div class="sponsors-group">
+          <div class="sponser"> <img class="sponser-logo" src="img/sponsors1.png" alt=""></div>
+          <div class="sponser"> <img class="sponser-logo" src="img/sponsors2.png" alt=""></div>
+          <div class="sponser"> <img class="sponser-logo" src="img/sponsors3.png" alt=""></div>
+          <div class="sponser"> <img class="sponser-logo" src="img/sponsors4.png" alt=""></div>
+          <div class="sponser"> <img class="sponser-logo" src="img/sponsors5.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!--========================== FOOTER ===========================-->
+    <section class="section footer" id="footer">
+      <div class="container grid">
+        <div class="travel">
+          <h3 class="title">Travel</h3>
+          <p class="description">Travel you choose the <br> destination, we offer you the <br> experience.</p>
+        </div>
+        <ul class="socials">
+          <li><a class="social-link" href="https://www.facebook.com/"><i
+                class="social-icon ri-facebook-box-fill"></i></a></li>
+          <li><a class="social-link" href="https://www.instagram.com/"><i class="social-icon ri-instagram-fill"></i></a>
+          </li>
+          <li><a class="social-link" href="https://twitter.com/"><i class="social-icon ri-twitter-fill"></i></a></li>
+          <li><a class="social-link" href="https://www.youtube.com/"><i class="social-icon ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+        <ul class="about">
+          <h3 class="title">About </h3>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">New & Blog</a></li>
+        </ul>
+        <ul class="company">
+          <h3 class="title">Company </h3>
+          <li><a href="#">Team </a></li>
+          <li><a href="#">Palne Y Pricing </a></li>
+          <li><a href="#">Become Member </a></li>
+        </ul>
+        <ul class="support">
+          <h3 class="title">support </h3>
+          <li><a href="#">FAQs </a></li>
+          <li><a href="#">Support Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="footer-rights">
+          <p>&#169; 2021 SabryHosny. All rigths reserved.</p>
+          <div class="terms"> <a class="link" href="#"> Terms & Agreements</a><a class="link" href="#"> Privacy Policy
+            </a></div>
+        </div>
+      </div>
+    </section>
+    <!--========================== SCROLL UP ===========================--><a class="scrollup" id="scrollup" href="#">
+      <i class="ri-arrow-up-line scrollup-icon"> </i></a>
+  </main>
+  <script src="js/jquery.js"> </script>
+  <script src="js/swiper-bundle.min.js"> </script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/main.js"> </script>
+</body>
+
+</html>
