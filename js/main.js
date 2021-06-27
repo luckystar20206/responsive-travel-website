@@ -37,12 +37,12 @@ $(function () {
 
   /*=========================== SCROLL SECTION ACTIVE LINK ===========================*/
   // $(window).on("scroll", function () {
-  //   document.querySelectorAll(".section").forEach((secToActive) => {
+  //   document.querySelectorAll("section").forEach((secToActive) => {
   //     if (
   //       window.scrollY >= secToActive.offsetTop - 50 &&
   //       window.scrollY < secToActive.offsetTop + secToActive.offsetHeight - 50
   //     ) {
-  //       document.querySelectorAll(".section").forEach((secToDeactive) => {
+  //       document.querySelectorAll("section").forEach((secToDeactive) => {
   //         secToDeactive.classList.remove("active-section");
   //       });
   //       secToActive.classList.add("active-section");
@@ -62,12 +62,12 @@ $(function () {
 
   // JQuery Version :) ------------------------------------
   $(window).on("scroll", function () {
-    $(".section").each(function (index, sec) {
+    $("section").each(function (index, sec) {
       const scroll = $(window).scrollTop();
       const secTop = $(sec).offset().top;
       const secHeight = $(sec).height();
       if (scroll >= secTop - 50 && scroll < secTop + secHeight - 50) {
-        $(".section").each(function () {
+        $("section").each(function () {
           $(this).removeClass("active-link");
         });
 
